@@ -1,0 +1,225 @@
+
+<html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <title>ZARA</title>
+    </head>
+  
+  
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-stone">
+        <a class="navbar-brand" style="cursor: bg-pointer" onclick="openNav()">&#9776;</a>
+        <a href="index.html" class="navbar-brand" style="cursor: bg-pointer" >ZARA</a>
+        
+        <!--SideMenu-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="newcollection.html">New Collection</a>
+                <a href="#">Sale</a>
+                <a href="#">Denim</a>
+                <a href="#">Jackets&blazers</a>
+                <a href="#">Shirts&blouses</a>
+                <a href="#">T-shirts</a>
+                <a href="#">Dresses,jumpsuits&skirts</a>
+                <a href="#">Trousers</a>
+                <a href="#">Shoes</a>
+                <a href="#">Bags</a>
+                <a href="#">Accessories</a>
+                <a href="#">Perfumes</a>
+            </div>
+            <script>
+                function openNav() {
+                document.getElementById("mySidenav").style.width = "250px"; }
+                function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";  }
+            </script>
+        </div>
+
+        <!--SearchBar-->
+            <ul class="navbar-nav mr-auto"> </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search"  aria-label="Search">
+                <button class="btn btn-dark bg-black my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+
+        <!--Login-->
+        <button type="button" class="btn log" data-toggle="modal" data-target="#exampleModal">Login</button>
+        <a class="navbar-nav btn log" href="cart.html" style="cursor:pointer">Cart</a>
+
+        <!--LoginModal-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="welcome">Welcome Back!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light bg-stone" data-dismiss="modal">Sign Up</button>
+                        <button type="button" class="btn btn-light bg-stone">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>     
+
+
+
+    <!---CartItem1-->
+    <div class="container">
+        <div class="row item-size">
+            <div class="col-4">
+                <div>
+                    <img src="images/88.png" alt="Not Found"  width="250px">
+                </div> 
+            </div>    
+            <div class="col-8">
+                <div class="cart-text">
+                    <h5 class="item-title">Oversize Check Coat</h5>
+                    <p class="card-text">Oversize check coat with a lapel collar and long sleeves. Featuring front pockets.</p>
+
+                    <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <p>Size: 34</p>                          
+                         </div>
+                          <div class="col">
+                            <p>Color: Brown</p>
+                          </div>
+                        </div>
+                    </div>   
+                    <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <p>Quantity: 1</p>                        
+                         </div>
+                          <div class="col">
+                            <p class="item-title">EGP 1,199.00</p>
+                          </div>
+                        </div>
+                    </div>  
+                  
+                    <a href="#" class="btn btn-dark bg-taupe border col-3">Delete</a>
+                    <a href="#" class="btn btn-dark bg-taupe border col-3">Add To Wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---CartItem2-->
+    <div class="container">
+        <div class="row item-size">
+            <div class="col-4">
+                <div>
+                    <img src="images/99.png" alt="Not Found"  width="250px">
+                </div> 
+            </div>    
+            <div class="col-8">
+                <div class="cart-text">
+                    <h5 class="item-title">Denim Overshirt</h5>
+                    <p class="card-text">Collared overshirt featuring long sleeves with buttoned cuffs. Front patch pockets and a button-up front.</p>
+
+                    <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <p>Size: S</p>                          
+                         </div>
+                          <div class="col">
+                            <p>Color: Mid-blue</p>
+                          </div>
+                        </div>
+                    </div>   
+                    <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <p>Quantity: 1</p>                        
+                         </div>
+                          <div class="col">
+                            <p class="item-title">EGP 599.00</p>
+                          </div>
+                        </div>
+                    </div>  
+                  
+                    <a href="#" class="btn btn-dark bg-taupe border col-3">Delete</a>
+                    <a href="#" class="btn btn-dark bg-taupe border col-3">Add To Wishlist</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--OrderSummary-->    
+    <div class="card">
+        <div class="card-body summary">
+            <p class="item-title">Order Summary</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Products</p>   
+                        <p>Shipping</p>  
+                        <p>Total</p>                     
+                    </div>
+                    <div class="col">
+                        <p>EGP 1,798.00</p>   
+                        <p>EGP 69.00</p>
+                        <p class="item-title">EGP 1,867.00</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-dark bg-taupe border col-3">Place Order</a>
+            </div>  
+        </div>
+    </div>
+ 
+
+
+
+    <!--Footer-->
+    <footer>
+        <div class="form-group email">
+            <h4 class="join">Join Our Newsetter</h4>
+            <input type="text" class="form-control input col-6" placeholder="Enter your e-mail address" aria-label="Email address" aria-describedby="button-addon2">
+        </div> 
+        <div class="socialmedia">
+            <a href="#" class="help">Help</a>
+            <a href="#" class="help">Company</a>
+            <a href="#" class="help">Follow Us</a>
+            <a href="#" class="help">Privacy</a>
+            <a href="#" class="help">Terms Of Use</a>
+        </div>
+        <div class="socialmedia">
+            <a href="https://twitter.com" class="links"> Twitter</a>
+            <a href="https://facebook.com" class="links">Facebook</a>
+            <a href="https://www.instagram.com" class="links">Instagram</a>
+            <a href="https://www.pinterest.com" class="links">Pinterest</a> 
+            <a href="https://www.youtube.com" class="links">Youtube</a>          
+        </div>
+    </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>    
